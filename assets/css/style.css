@@ -1,0 +1,146 @@
+/* GLOBAL RULES */
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    background-color: #efefef;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #393c6c;
+}
+
+h2 {
+    font-size: 30px;
+    color: #f3735f;
+    margin: 70px 0 20px 0; 
+}
+
+h3 {
+    font-size: 18px;
+    color: #393c6c;
+    line-height: 22px;;
+}
+
+/* SPECIFIC */
+
+/* HEADER */
+.nav {
+    border: 1px solid #F3735F;
+    background: #FFFFFF;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 50px;
+}
+
+header .container img {
+    width: 200px;
+    height: 31.47px;
+    margin-left: 23%;
+    padding-top: 20px;
+    
+}
+
+/* MAIN */
+section {
+    background-color: #fff;
+    padding: 60px 30px;
+    border-radius: 20px;
+}
+
+.under-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+p {
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+
+
+.baseline {
+    width: 100%;
+    height: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    color: #6C6C6C;
+    text-align: center;
+}
+
+main .total-time {
+    width: 40%;
+    background: #8A98B1;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+main .total-time span {
+    width: 234px;
+    height: 26px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+
+    /* identical to box height */
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/* IMAGES */
+.product-image {
+    text-align: center;
+    width: 100%;
+    margin-right: 10px;
+}
+main img {
+    width: 300px;
+    height: 300px;
+    margin-right: 18px;
+    border-radius: 20px;
+}
+
+main section li {
+    list-style: disc;
+    margin-left: 20px;
+}
+footer {
+    padding: 20px;
+}
+
+footer p {
+    width: 349px;
+    height: 14px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    
+    /* identical to box height */
+    text-align: center;
+    
+    color: #6C6C6C; 
+    margin: 20px auto;
+}
